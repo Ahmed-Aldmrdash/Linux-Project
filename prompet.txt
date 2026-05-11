@@ -3,3 +3,6 @@
 
 امر التنفيذ والحفظ في ملف 
 ./profiler.sh test.csv > report.txt
+
+
+git remote add origin https://github.com/Ahmed-Aldmrdash/Linux-Project.git
