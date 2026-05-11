@@ -1,22 +1,30 @@
-# 📊 Shell-Based Dataset Profiler
+# 📊 Shell-Based Dataset Profiler (CLI Pandas)
+
+![Bash](https://img.shields.io/badge/Scripting-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/Environment-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Data Science](https://img.shields.io/badge/Focus-Data%20Science-007ACC?style=flat-square)
 
 ## 📝 Project Overview
-[cite_start]This project is an advanced CLI data analysis tool developed as part of the **CET216 - Linux and Shell Programming** course[cite: 2, 88]. [cite_start]The script `profiler.sh` performs automated dataset profiling, detecting data types, missing values, and key statistics[cite: 105, 107, 108].
+A lightweight, robust Command-Line Interface (CLI) tool designed to perform **Exploratory Data Analysis (EDA)** directly from the terminal. Acting as a shell-native alternative to Python's `pandas.describe()`, this tool streamlines the data understanding and preparation phase for data science workflows. 
 
-## 🚀 Key Features
-- **Auto-Type Detection:** Distinguishes between `Numeric` and `String` types.
-- **Data Cleaning:** Handles Windows line endings and commas within quotes.
-- [cite_start]**Statistical Analysis:** Calculates Missing count, Unique count, Min, Max, and Mean[cite: 108, 109].
+Developed as part of the **CET216 - Linux and Shell Programming** course.
 
-## 🛠️ Usage
-1. `chmod +x profiler.sh`
-2. `./profiler.sh test.csv`
+## 🚀 Key Features & Enhancements
+- **⚡ Automated Statistical Profiling:** Computes Missing counts, Unique values, Min, Max, and Mean dynamically using core Linux utilities (`awk`).
+- **🧠 Smart Type Detection:** Automatically differentiates between `Numeric` and `String` data types using Regex.
+- **🧹 Built-in Data Cleaning (Enhancement):** Seamlessly detects and removes duplicate records and empty lines while preserving dataset structure and headers.
+- **📝 Actionable Logging (Enhancement):** Automatically generates a `cleaning_log.txt` to track dataset modifications, dropped rows, and ensure data integrity.
+- **✨ Perfectly Formatted Output:** Utilizes the `column` utility to render beautifully aligned, highly readable analytical tables directly in the terminal.
 
+## 🛠️ Usage Instructions
+
+1. **Grant execution permissions to the script:**
+   ```bash
+   chmod +x profiler.sh
 ## 👥 Student Information
-| Name | Student ID | Department |
-| :--- | :--- | :--- |
-| **Ahmed Mohamed Fathy Aldmrdash** | 240102791 | Computer Science Technology |
-| **Omar Ahmed Ramadan Ramadan** | 240102684 | Computer Science Technology |
+| Name | Student ID |
+| :--- | :--- |
+| **Ahmed Mohamed Fathy Aldmrdash** | 240102791 |
+| **Omar Ahmed Ramadan Ramadan** | 240102684 
 
 - **University:** Elsewedy University of Technology (SUT).
-- **Supervision:** Dr. Ashraf Adel Mohamed.
