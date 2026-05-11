@@ -1,0 +1,5 @@
+امر التنفيذ
+./profiler.sh test.csv
+
+امر التنفيذ والحفظ في ملف 
+./profiler.sh test.csv > report.txt
