@@ -22,8 +22,8 @@ Developed as part of the **CET216 - Linux and Shell Programming** course.
    ```bash
    chmod +x profiler.sh
 ## 👥 Student Information
-| Name | Student ID | Department |
-| :--- | :--- | :--- |
+| Name | Student ID |
+| :--- | :--- |
 | **Ahmed Mohamed Fathy Aldmrdash** | 240102791 |
 | **Omar Ahmed Ramadan Ramadan** | 240102684 
 
